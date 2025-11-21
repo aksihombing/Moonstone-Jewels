@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- DEVELOPER: Rea Sihombing, IS117-001, Fall 2025 -->
 
 <head>
     <title>Moonstone Jewels</title>
@@ -10,7 +11,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <style>
-        body { background: linear-gradient(180deg, #d9e6ed, #625697);
+        body {
+            background: linear-gradient(180deg, #d9e6ed, #928fb6);
+            /*background-color: #f5f5f5;*/
+        }
     </style>
 </head>
 
@@ -47,6 +51,10 @@
                     </ul>
                 </li>
             </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
         </div>
     </div>
 </nav>
@@ -55,12 +63,15 @@
 <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-            <img src="images/pexels-martabranco-1395305.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+            <img alt="Silver Pearl Jewelry on Blue Velvet" src="images/pexels-martabranco-1395305.jpg"
+                 class="d-block mx-lg-auto img-fluid"
                  width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3" style="color:#24284e">Moonstone Jewels</h1>
-            <p class="lead">Timeless jewelry built to last decades.</p>
+            <h1 class="display-5 fw-bold lh-1 mb-3" style="color:#24284e">Moonstone Jewels
+            </h1>
+            <p class="lead">Discover handcrafted pieces that capture the essence of sophistication. Every gem, every
+                design — created to illuminate your story.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" onclick="location.href='shop.html'"
                         style="background-color:#1e1939">Shop Now
@@ -80,7 +91,9 @@
             <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
                  style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/pexels-airamdphoto-13524235.jpg'); background-size: 200%; background-repeat: no-repeat; background-position: center;">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="shop.html" style="text-decoration: none; color: white;">Shop the current selections</a></h2>
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="shop.html"
+                                                                         style="text-decoration: none; color: white;">Shop
+                        the current selections</a></h2>
                     <ul class="d-flex list-unstyled mt-auto">
                         <li class="d-flex align-items-center me-3">
                             <small>Live in your fantasies. Wear Moonstone Jewels today.</small>
@@ -90,10 +103,13 @@
             </div>
         </div>
 
-        <div class="col">            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+        <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
                  style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/pexels-olly-1050321.jpg'); background-size: 200%; background-repeat: no-repeat; background-position: center;">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="about.html" style="text-decoration: none; color: white;">Learn about our story</a></h2>
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="about.html"
+                                                                         style="text-decoration: none; color: white;">Learn
+                        about our story</a></h2>
                     <ul class="d-flex list-unstyled mt-auto">
                         <li class="d-flex align-items-center me-3">
                             <small>Read more about our missions and goals.</small>
@@ -107,7 +123,9 @@
             <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
                  style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/pexels-ron-lach-9616963.jpg'); background-size: 200%; background-repeat: no-repeat; background-position: center;">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="blogs.html" style="text-decoration: none; color: white;">Read our blogs</a></h2>
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"><a href="blogs.html"
+                                                                         style="text-decoration: none; color: white;">Read
+                        our blogs</a></h2>
                     <ul class="d-flex list-unstyled mt-auto">
                         <li class="d-flex align-items-center me-3">
                             <small>See the "Behind The Scenes" of jewelry.</small>
@@ -122,17 +140,16 @@
 
 <!-- FOOTER -->
 <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="color: white;"><p
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"><p
             class="col-md-4 mb-0">&copy;Rea Sihombing, 2025</p> <a href="/"
-                                                                                       class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-                                                                                       aria-label="Bootstrap">
-        <svg class="bi me-2" width="40" height="32" aria-hidden="true">
-            <use xlink:href="#bootstrap"></use>
-        </svg>
+                                                                   class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                                                                   aria-label="Bootstrap">
     </a>
         <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="#" class="nav-link px-2" style="text-decoration: none; color: white;" >Terms of Service</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2" style="text-decoration: none; color: white;">Privacy Policy</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2" style="text-decoration: none;color:#2b2f32;">Terms of
+                Service</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2" style="text-decoration: none;color:#2b2f32;">Privacy
+                Policy</a></li>
         </ul>
     </footer>
 </div>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- DEVELOPER: Rea Sihombing, IS117-001, Fall 2025 -->
 
 <head>
     <title>Moonstone Jewels</title>
@@ -10,7 +11,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <style>
-        body { background: linear-gradient(180deg, #d9e6ed, #625697);
+        body {
+            background: linear-gradient(180deg, #d9e6ed, #928fb6);
+            /*background-color: #f5f5f5;*/
+        }
     </style>
 </head>
 
@@ -47,42 +51,102 @@
                     </ul>
                 </li>
             </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
         </div>
     </div>
 </nav>
 
 <!-- CARDS -->
-<div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="container my-5">
+    <div class="d-flex flex-wrap justify-content-center gap-4">
+        <div class="card" style="width: 18rem;">
+            <img src="images/pexels-the-glorious-studio-3584518-16702312.jpg" class="card-img-top"
+                 alt="Rectangle Cubic Zirconia Ring">
+            <div class="card-body">
+                <h5 class="card-title">Rectangle-Cut CZ Sterling Silver Ring</h5>
+                <p class="card-text">$109.99</p>
+                <a href="#" class="btn btn-primary" style="background-color: #100a36">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="images/pexels-the-glorious-studio-3584518-11504786.jpg" class="card-img-top"
+                 alt="Snowflake-like Cubic Zirconia Ring">
+            <div class="card-body">
+                <h5 class="card-title">Snowflake CZ Sterling Silver Ring</h5>
+                <p class="card-text">$189.99</p>
+                <a href="#" class="btn btn-primary" style="background-color: #100a36">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="images/pexels-fotios-photos-19132380.jpg" class="card-img-top"
+                 alt="Rose Gold Plated Ring with Pink Gem Stone">
+            <div class="card-body">
+                <h5 class="card-title">Spinel Gemstone Rose Gold Plated Sterling Silver Ring</h5>
+                <p class="card-text">$239.99</p>
+                <a href="#" class="btn btn-primary" style="background-color: #100a36">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="images/pexels-beyzaa-yurtkuran-279977530-15960210.jpg" class="card-img-top"
+                 alt="Gold Amethyst Necklace">
+            <div class="card-body">
+                <h5 class="card-title">18K Gold Plated Amethyst Necklace</h5>
+                <p class="card-text">$159.99</p>
+                <a href="#" class="btn btn-primary" style="background-color: #100a36">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="images/pexels-duygukamar-12145316.jpg" class="card-img-top"
+                 alt="Gold Clover Necklace">
+            <div class="card-body">
+                <h5 class="card-title">18K Gold Plated Clover Necklace</h5>
+                <p class="card-text">$189.99</p>
+                <a href="#" class="btn btn-primary" style="background-color: #100a36">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="images/pexels-kunal-lakhotia-781256899-32988628.jpg" class="card-img-top"
+                 alt="Silver Oval Ring">
+            <div class="card-body">
+                <h5 class="card-title">18K White Gold Plated CZ Oval Ring</h5>
+                <p class="card-text">$169.99</p>
+                <a href="#" class="btn btn-primary" style="background-color: #100a36">Add to Cart</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="images/pexels-nati-87264186-30328038.jpg" class="card-img-top"
+                 alt="Gold Lemon Necklace">
+            <div class="card-body">
+                <h5 class="card-title">18K Gold Lemon Necklace</h5>
+                <p class="card-text">$199.99</p>
+                <a href="#" class="btn btn-primary" style="background-color: #100a36">Add to Cart</a>
+            </div>
+        </div>
+
     </div>
 </div>
 
 
-
-
-
-
-
-
-
-
-
 <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="color: white;"><p
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"><p
             class="col-md-4 mb-0">&copy;Rea Sihombing, 2025</p> <a href="/"
                                                                    class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
                                                                    aria-label="Bootstrap">
-        <svg class="bi me-2" width="40" height="32" aria-hidden="true">
-            <use xlink:href="#bootstrap"></use>
-        </svg>
     </a>
         <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="#" class="nav-link px-2" style="text-decoration: none; color: white;" >Terms of Service</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2" style="text-decoration: none; color: white;">Privacy Policy</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2" style="text-decoration: none;color:#2b2f32;">Terms of
+                Service</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2" style="text-decoration: none;color:#2b2f32;">Privacy
+                Policy</a></li>
         </ul>
     </footer>
 </div>

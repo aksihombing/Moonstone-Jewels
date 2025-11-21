@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- DEVELOPER: Rea Sihombing, IS117-001, Fall 2025 -->
 
 <head>
     <title>Moonstone Jewels</title>
@@ -10,7 +11,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <style>
-        body { background: linear-gradient(180deg, #d9e6ed, #625697);
+        body {
+            background: linear-gradient(180deg, #d9e6ed, #928fb6);
+            /*background-color: #f5f5f5;*/
+        }
     </style>
 </head>
 
@@ -47,6 +51,10 @@
                     </ul>
                 </li>
             </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
         </div>
     </div>
 </nav>
@@ -58,27 +66,20 @@
         <div class="row gx-4 align-items-center justify-content-between">
             <div class="col-md-5 order-2 order-md-1">
                 <div class="mt-5 mt-md-0">
-                    <span class="text-muted">Our Story</span>
-                    <h2 class="display-5 fw-bold">About Us</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris .</p>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <span class="text-muted">About Us</span>
+                    <h2 class="display-5 fw-bold">The Art of Adornment
+                    </h2>
+                    <p class="lead">We believe jewelry is more than an accessory... It’s an expression of individuality.
+                        Each piece is meticulously designed and ethically sourced, combining traditional craftsmanship
+                        with modern artistry.</p>
+                    <p class="lead">From radiant diamonds to rare gemstones, our collections are tailored for those who
+                        seek beauty with purpose.</p>
                 </div>
             </div>
-            <div class="col-md-6 offset-md-1 order-1 order-md-2">
-                <div class="row gx-2 gx-lg-3">
-                    <div class="col-6">
-                        <div class="mb-2"><img class="img-fluid rounded-3" src="https://freefrontend.dev/assets/square.png"></div>
-                    </div>
-                    <div class="col-6">
-                        <div class="mb-2"><img class="img-fluid rounded-3" src="https://freefrontend.dev/assets/square.png"></div>
-                    </div>
-                    <div class="col-6">
-                        <div class="mb-2"><img class="img-fluid rounded-3" src="https://freefrontend.dev/assets/square.png"></div>
-                    </div>
-                    <div class="col-6">
-                        <div class="mb-2"><img class="img-fluid rounded-3" src="https://freefrontend.dev/assets/square.png"></div>
-                    </div>
-                </div>
+            <div class="col-md-6 order-1 order-md-1"><img alt="Violin Next To A Candlestick" class="img-fluid"
+                                                          style="width:700%; height:auto; object-fit: cover; padding: 2%; border-radius: 3%;"
+                                                          src="images/pexels-cottonbro-7097777.jpg">
+
             </div>
         </div>
     </div>
@@ -90,17 +91,18 @@
     <div class="container">
 
         <div class="row g-0 align-items-center">
-            <div class="col-md-6"><img alt="" class="img-fluid" src="https://freefrontend.dev/assets/rectangle-wide.png"></div>
+            <div class="col-md-6"><img alt="Chalice and Candle Table Setting" class="img-fluid"
+                                       style="height: 60vh; width: 60vw; object-fit: cover; padding: 2%; border-radius: 3%;"
+                                       src="images/pexels-orlovamaria-4916020.jpg"></div>
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-lg-12 col-xxl-10 col-xl-12">
                         <div class="p-md-3 p-xl-5 mt-4 mt-md-0">
-                            <a class="text-primary fw-semibold text-decoration-none" href="">Category</a>
-                            <h2 class="fw-semibold my-1">A short engaging title</h2>
-                            <div class="text-muted">
-                                10.10.2017
-                            </div>
-                            <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue risus sit amet dictum malesuada. Vestibulum viverra iaculis turpis, vitae varius lectus imperdiet at. Sed ultrices, ante vitae maximus laoreet, magna quam tincidunt ex, non faucibus justo dui commodo libero.</p><a class="btn btn-primary" href="">Read more</a>
+                            <h2 class="fw-semibold my-1">Our Philosophy</h2>
+                            <p class="my-4">At Moonstone Jewels, we see jewelry as a personal expression of identity,
+                                emotion, and story. Every design begins with intention, blending timeless elegance with
+                                modern artistry. Our goal is to create pieces that feel deeply personal and last a
+                                lifetime.</p>
                         </div>
                     </div>
                 </div>
@@ -111,40 +113,36 @@
                 <div class="row justify-content-end">
                     <div class="col-lg-12 col-xxl-10 col-xl-12">
                         <div class="p-md-3 p-xl-5 mt-4 mt-md-0">
-                            <a class="text-primary fw-semibold text-decoration-none" href="">Category</a>
-                            <h2 class="fw-semibold my-1">A short engaging title</h2>
-                            <div class="text-muted">
-                                10.10.2017
-                            </div>
-                            <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue risus sit amet dictum malesuada. Vestibulum viverra iaculis turpis, vitae varius lectus imperdiet at. Sed ultrices, ante vitae maximus laoreet, magna quam tincidunt ex, non faucibus justo dui commodo libero.</p><a class="btn btn-primary" href="">Read more</a>
+                            <h2 class="fw-semibold my-1">Craftmanship</h2>
+                            <p class="my-4">Each Moonstone Jewel piece is crafted with meticulous care using ethically
+                                sourced materials. From radiant diamonds to rare gemstones, we partner with responsible
+                                suppliers and skilled artisans to ensure every creation honors both beauty and
+                                integrity. We believe luxury should not come at the expense of people or the planet.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 order-1 order-md-2">
-                <div class="mt-5 mt-md-0"><img alt="" class="img-fluid" src="https://freefrontend.dev/assets/rectangle-wide.png"></div>
+                <div class="mt-5 mt-md-0"><img alt="Moon At Night" class="img-fluid"
+                                               style="height: 60vh; width: 60vw; object-fit: cover; padding: 2%; border-radius: 3%;"
+                                               src="images/pexels-rok-romih-1746122-3489072.jpg"></div>
             </div>
         </div>
     </div>
 </section>
 
 
-
-
-
-
 <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="color: white;"><p
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"><p
             class="col-md-4 mb-0">&copy;Rea Sihombing, 2025</p> <a href="/"
                                                                    class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
                                                                    aria-label="Bootstrap">
-        <svg class="bi me-2" width="40" height="32" aria-hidden="true">
-            <use xlink:href="#bootstrap"></use>
-        </svg>
     </a>
         <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="#" class="nav-link px-2" style="text-decoration: none; color: white;" >Terms of Service</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2" style="text-decoration: none; color: white;">Privacy Policy</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2" style="text-decoration: none;color:#2b2f32;">Terms of
+                Service</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2" style="text-decoration: none;color:#2b2f32;">Privacy
+                Policy</a></li>
         </ul>
     </footer>
 </div>
